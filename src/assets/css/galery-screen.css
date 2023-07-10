@@ -1,0 +1,46 @@
+.galeryScreen{
+    height: 100vh;
+    position: relative;
+}
+
+.galeryScreen .sectionContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100%);
+    width: 80%;
+    margin:auto;
+}
+
+
+.galeryScreen .welcomeContainer{
+
+}
+
+
+.galeryScreen .welcomeContainer h1{
+    color:white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.galeryScreen .imageList{
+    display: flex;
+    max-height: 60%;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.galeryScreen .imageList img{
+    cursor:zoom-in;
+    flex: 25%;
+    padding:5px;
+    box-sizing: border-box;
+    max-width: 25%;
+    border: 2px solid transparent;
+}
+
+
+.galeryScreen .imageList img:hover{
+    border: 2px solid white;
+}

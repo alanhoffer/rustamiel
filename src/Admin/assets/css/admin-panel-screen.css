@@ -1,0 +1,8 @@
+.adminPanelScreen{
+    display:flex;
+    align-items: center;
+    width: 80%;
+    color:white;
+    margin:auto;
+    height: 100vh;
+}

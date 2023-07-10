@@ -1,0 +1,49 @@
+.adminScreen{
+    height: 100vh;
+}
+
+.adminScreenContainer{
+    color:white;
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.adminScreen .ContainerTitle{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+
+
+.adminScreen .inputContainer{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+.adminScreen .inputContainer textarea{
+    height: 300px;
+}
+
+
+.adminScreen .inputContainer input{
+    margin:15px 0;
+    padding:10px;
+    
+}
+
+.adminScreen .inputContainer button{
+    font-size: 1.5rem;
+    width: 100%;
+    margin:10px 0;
+    padding:5px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}

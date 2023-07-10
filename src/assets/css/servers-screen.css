@@ -1,0 +1,30 @@
+.serverListScreen{
+    height: 100vh;
+}
+
+.serverListScreen .sectionContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100%);
+    width: 80%;
+    margin:auto;
+}
+
+
+.serverListScreen .welcomeContainer{
+
+}
+
+
+.serverListScreen .welcomeContainer h1{
+    color:white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.serverListScreen .serverList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.5%;
+}

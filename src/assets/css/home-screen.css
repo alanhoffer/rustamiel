@@ -1,0 +1,60 @@
+.homeContainer{
+    height: 100vh;
+}
+
+.homeContainer .sectionContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: calc(100%);
+    width: 80%;
+    margin:auto;
+}
+
+.homeContainer .welcomeContainer{
+    width: 60%;
+}
+
+.homeContainer .welcomeContainer h1{
+    color:white;
+    font-weight: normal;
+    margin-bottom:0;
+    font-size: 4rem;
+}
+
+.homeContainer .welcomeContainer p{
+    margin-top:0;
+    font-size: 2rem;
+    color:#ADADAD;
+}
+
+
+.homeContainer .monthlyGaleryContainer{
+    width: 50%;
+}
+
+.homeContainer .monthlyGaleryContainer h3{
+    font-size: 2rem;
+    font-weight: normal;
+    color:white;
+}
+
+
+
+.homeContainer .monthlyImageContainer{
+    display: flex;
+    width: 100%;
+}
+
+.homeContainer .monthlyImageContainer img{
+    cursor:zoom-in;
+    width: 25%;
+    margin-right: 1rem;
+    border: 2px solid transparent;
+}
+
+
+.homeContainer .monthlyImageContainer img:hover{
+    border: 2px solid white;
+}

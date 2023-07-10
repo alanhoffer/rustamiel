@@ -1,0 +1,14 @@
+.galeryImageComponent{
+    position:relative;
+    width: 200px;
+}
+
+.galeryImageComponent button{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+.galeryImageComponent img{
+    width: 100%;
+}

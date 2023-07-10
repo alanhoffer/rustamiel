@@ -1,0 +1,26 @@
+.shopScreen{
+    height: 100vh;
+}
+
+.shopScreen .sectionContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100%);
+    width: 80%;
+    margin:auto;
+}
+
+
+
+.shopScreen .welcomeContainer h1{
+    color:white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.shopScreen .productList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}

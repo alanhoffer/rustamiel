@@ -1,0 +1,52 @@
+.loginScreen{
+    height: 100vh;
+}
+
+.loginScreenContainer{
+    color:white;
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.loginScreenContainerTitle{
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+.loginScreen form{
+    width: 20%;
+    min-width: 250px;
+}
+
+.loginScreen .inputContainer{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.loginScreen .inputContainer label{
+    font-size: 1.5rem;
+}
+
+
+.loginScreen .inputContainer input{
+    margin:15px 0;
+    padding:10px;
+    
+}
+
+.loginScreen .inputContainer button{
+    font-size: 1.5rem;
+    width: 100%;
+    margin:10px 0;
+    padding:5px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
